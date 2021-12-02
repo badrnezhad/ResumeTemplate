@@ -1,0 +1,192 @@
+/* Global Styles */
+@font-face {
+  font-family: ubuntu;
+  src: url("src/fonts/Ubuntu-Regular.ttf");
+}
+
+.icon {
+  color: #bb86fc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 0 auto;
+  border-color: #808080;
+  height: 1px;
+}
+
+body {
+  background: #202124;
+  font-family: ubuntu;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+}
+.label {
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.label-pink {
+  background-color: #bb86fc;
+}
+.hr90 {
+  width: 90%;
+}
+/* Main Styles */
+.container {
+  width: 98%;
+  padding: 1%;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-left {
+  width: 25%;
+  display: inline-block;
+  margin: 7px;
+  vertical-align: top;
+}
+
+.col-right {
+  width: 68%;
+  display: inline-block;
+  margin: 7px;
+  vertical-align: top;
+}
+
+.info-box {
+  min-height: 300px;
+  background: #303134;
+  box-shadow: 2px 2px 15px #1c1c1d;
+  border-radius: 3px;
+  margin: 20px 7px;
+  width: 100%;
+}
+.item-title {
+  margin-left: 10px;
+}
+
+/* Left Column Styles */
+#profile-box {
+  position: relative;
+}
+#profile-image {
+  border-radius: 3px 3px 0 0;
+}
+#profile-name {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  padding: 2%;
+  color: #fff;
+  width: 96%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+#description-box {
+  padding: 15px;
+}
+
+#description-box ul {
+  list-style: none;
+  color: #fff;
+}
+
+#description-box ul li {
+  margin-bottom: 15px;
+}
+
+#description-box ul li span {
+  margin-left: 10px;
+}
+
+#skills-box,
+#language-box {
+  padding: 15px;
+  color: #fff;
+}
+
+#skills-box ul,
+#language-box ul {
+  list-style: none;
+}
+#skills-box ul li,
+#language-box ul li {
+  margin-bottom: 25px;
+}
+
+.progress-box {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 15px;
+  height: 20px;
+}
+
+.progress-box .progress-bar {
+  background-color: #bb86fc;
+  border-radius: 15px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.pb100 {
+  width: 100%;
+}
+.pb80 {
+  width: 80%;
+}
+.pb70 {
+  width: 70%;
+}
+.pb60 {
+  width: 60%;
+}
+.pb40 {
+  width: 40%;
+}
+
+/* Right Column */
+#experience,
+#education {
+  color: #fff;
+  padding: 25px;
+}
+#experience h1,
+#education h1 {
+  margin-bottom: 30px;
+}
+
+.work-item,
+.edu-item {
+  margin: 40px 0;
+}
+
+footer {
+  background-color: #bb86fc;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .col-left {
+    width: 96%;
+  }
+
+  .col-right {
+    width: 96%;
+  }
+  .info-box {
+    width: auto;
+  }
+}
